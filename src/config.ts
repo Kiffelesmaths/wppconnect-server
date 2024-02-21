@@ -1,5 +1,3 @@
-import process from 'process';
-
 export default {
   secretKey: process.env.SECRET_KEY,
   host: process.env.HOST,
