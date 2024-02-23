@@ -96,10 +96,10 @@ export default {
   },
   aws_s3: {
     region: process.env.AWS_S3_REGION,
-    access_key_id: process.env.AWS_S3_ACCESS_KEY,
-    secret_key: process.env.AWS_S3_SECRET_KEY,
-    defaultBucketName: process.env.AWS_S3_DEFAULT_BUCKET_NAME,
-    endpoint: process.env.AWS_S3_ENDPOINT,
-    forcePathStyle: process.env.AWS_S3_FORCED_PATH_STYLE,
+    access_key_id: null,
+    secret_key: null,
+    defaultBucketName: null,
+    endpoint: null,
+    forcePathStyle: null,
   },
 };
